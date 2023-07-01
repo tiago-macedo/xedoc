@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "xedoc-5ddcd",
+    "xedoc": "xedoc-5ddcd"
+  },
+  "targets": {
+    "xedoc-5ddcd": {
+      "hosting": {
+        "xedoc": [
+          "xedoc",
+          "xedoc-v0"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

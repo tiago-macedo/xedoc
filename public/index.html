@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1>
+    <title>Xedoc</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore-compat.js"></script>
+    <script type="text/javascript" src="./xedoc.js" defer></script>
+    <script type="text/javascript" src="./app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+</head>
+
+<body>
+    <div id="logged_in">
+        <textarea id="txt"></textarea>
+        <div id="rendered"></div>
+        <div id="panel">
+            <button id="logout">Logout</button>
+            <button id="color_switch" onclick="toggle_color()">☀️</button>
+            <button id="view_switch" onclick="toggle_view()">✨</button>
+        </div>
+    </div>
+
+    <div id="logged_out">
+        <button id="login" style="font-size: 1em;">Login</button>
+    </div>
+</body>
+</html>
